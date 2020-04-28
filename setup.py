@@ -7,7 +7,7 @@ setup.py for the `opa` package.
 import os
 from setuptools import setup
 from setuptools.command.install import install
-from feeds import __version__
+from opa import __version__
 
 README = open(
     os.path.join(os.path.dirname(__file__), 'README.md')
@@ -17,14 +17,14 @@ README = open(
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='feeds',
+    name='opa',
     version=__version__,
-    packages=['feeds'],
+    packages=['opa'],
     include_package_data=True,
     license='BSD License',    # example license
     description='A RSS feed aggregator built on Django.',
     long_description=README,
-    url='https://pramari.de/feeds',
+    url='https://pramari.de/opa',
     author='Andreas.Neumeier',
     author_email='andreas@neumeier.org',
     classifiers=[
