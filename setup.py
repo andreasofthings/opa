@@ -21,8 +21,8 @@ setup(
     version=__version__,
     packages=['opa'],
     include_package_data=True,
-    license='BSD License',    # example license
-    description='A RSS feed aggregator built on Django.',
+    license='BSD License',
+    description='A management plane for opa agents.',
     long_description=README,
     url='https://pramari.de/opa',
     author='Andreas.Neumeier',
