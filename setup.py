@@ -40,7 +40,7 @@ setup(
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
     ],
     install_requires=[
-        'django>=3.0.0',
+        'django>=2.2.12',
         'pyyaml',
     ],
     #setup_requires=['pytest-runner'],
